@@ -16,7 +16,7 @@ class Datatype
 		
 		float c=12.96f;
 		System.out.println("value of c is: "+c);
-		
+		// hi
 	}
 	
 }
