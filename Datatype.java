@@ -16,7 +16,18 @@ class Datatype
 		
 		float c=12.96f;
 		System.out.println("value of c is: "+c);
-		// hi
+		
+		long d=988874178783l;
+		System.out.println(d);
+		
+		double e=123.67556723;
+		System.out.println(e);
+		
+		char f='$';
+		System.out.println(f);
+		
+		boolean g=true;   //false
+		System.out.println(g);
 	}
 	
 }
