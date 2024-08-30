@@ -39,5 +39,6 @@ class LogicalOperator
 		                                   //1111 1111 1111 0001
 	    System.out.println(~8);           //0000 0000 0000 1000
 		                                   //1111 1111 1111 0111  
+										  
 	}
 }
