@@ -11,7 +11,7 @@ class p3
 		
 		Scanner sc=new Scanner(System.in);
 		
-		int a=sc.nextInt();
+		int a=sc.nextInt();  //nextInt vaha se input leta hai
 		System.out.println("Value given by user is:"+a);
 		
 		
