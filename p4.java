@@ -3,6 +3,7 @@ class p4
 {
 	public static void main(String args[])
 	{
+		//sc is object and scanner is class
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter two numbers:");
 		
@@ -15,7 +16,9 @@ class p4
 		int square=sc.nextInt();
 		System.out.println(square*square);
 		
-		
+		int length=sc.nextInt();
+		int breadth=sc.nextInt();
+		System.out.println(length*breadth);
 		
 	}
 }
