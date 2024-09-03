@@ -14,7 +14,18 @@ class p8
 			subscribed=true;
 		}
 		System.out.println("Subscribed:"+subscribed);
+		
+		if(subscribed)
+		{
+			System.out.println("You are subscribed");
+		}
+		else
+		{
+			System.out.println("You are not subscribed");
+		}
 	}
+	
+	
 	
 }
 

@@ -18,11 +18,11 @@ class IfElse
 		
 		if(n%7==0)
 		{
-			System.out.println(n+" is multiple by 7");
+			System.out.println(n+" is multiple of 7");
 		}
 		else
 		{
-			System.out.println(n+" is not multiple by 7");
+			System.out.println(n+" is not multiple of 7");
 		}
 	}
 }
