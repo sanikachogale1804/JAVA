@@ -4,7 +4,8 @@ class p4
 	public static void main(String args[])
 	{
 		//sc is object and scanner is class
-		Scanner sc=new Scanner(System.in);
+		//scanner ke pass sab functions hai is liye scanner ka object banaya
+		Scanner sc=new Scanner(System.in);//scanner ko batana padta hai chije kaha se read karni hai is liye(System.in) use kiya
 		System.out.println("Enter two numbers:");
 		
 		int n1=sc.nextInt();
