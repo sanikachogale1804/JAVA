@@ -11,5 +11,14 @@ class while2
 			digitcount++;
 		}
 		System.out.println(digitcount);
+		
+		if(digitcount>4)
+		{
+			System.out.println("number is to large");
+		}
+		else
+		{
+			System.out.println("number is small");
+		}
 	}
 }
