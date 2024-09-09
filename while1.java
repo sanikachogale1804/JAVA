@@ -7,6 +7,7 @@ class while1
 		{
 			System.out.println(i);
 			i++;
+			i++;
 		}
 	}
 }
