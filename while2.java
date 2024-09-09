@@ -7,8 +7,9 @@ class while2
 		
 		while(n!=0)
 		{
-			n=n/10;
+			n=n/20;
 			digitcount++;
+		
 		}
 		System.out.println(digitcount);
 		
