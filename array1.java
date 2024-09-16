@@ -3,8 +3,8 @@
 //array me data in sequnce hotaa hai matlab ordered hota hai
 //indexing tells where exactly our elements is 
 //array banane ke liye new keyword use karte hai 
-//syntax of array= new datatype[size];  //it is a memory badme hum variable me store karte hai
-//int a[]=new datatype[size]
+//syntax of array= datatype array_name[]=new datatype[size];  //it is a memory badme hum variable me store karte hai
+                   //int        a[]     =new String[3]
 
 class array1
 {
