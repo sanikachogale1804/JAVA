@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class p16
+class array4
 {
 	public static void main(String args[])
 	{
@@ -26,9 +26,37 @@ class p16
 		{
 			System.out.println(days);
 		}
+		System.out.println("=================================");
 		
+		char ch[]={'a','c','e','i','a','o','a'};
+		int count=0;
 		
+		for(char character:ch)
+		{
+			if(character=='a')
+			{
+				count++;
+			}	
+		}
+		System.out.println("count:"+count);
 		
+		char c[]={'a','e','g','s','o'};
+		int vowel=0;
+		int consonent=0;
+		
+		for(char charct:c)
+		{
+			if(charct=='a'|| charct=='e'||charct=='i'||charct=='o'||charct=='u')
+			{
+				vowel++;
+			}
+			else
+			{
+				consonent++;
+			}
+		}
+		System.out.println("vowels:"+vowel);
+		System.out.println("consonent:"+consonent);
 		
 	}
 }
