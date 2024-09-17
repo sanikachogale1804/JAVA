@@ -10,5 +10,13 @@ class p16
 		System.out.println("weekdays:"+weekdays.length);
 		System.out.println("primenumbers:"+primenumbers.length);
 		
+		//enhance loop bolta hai aap bas array ka name do iterations me sambhal lunga
+		//enhanced for loop
+		
+		for(int numbers:primenumbers)
+		{
+			System.out.println(numbers);
+		}
+		
 	}
 }
