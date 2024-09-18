@@ -8,6 +8,19 @@ class multi_dimensional_array
 							   
 		System.out.println(numbers[0][0]);		
 		System.out.println(numbers[1][2]);		
-        System.out.println(numbers[0][1]);		
+        System.out.println(numbers[0][1]);	
+
+		System.out.println("==========================");	
+		
+		int arr1[][]={{12,45,87},{34,65,23}};
+		
+		for(int i=0;i<arr1.length;i++)
+		{
+			for(int j=0;j<3;j++)
+			{
+				System.out.println(i+" ");
+				System.out.println(arr1[i][j]);
+			}
+		}
     }
 }
