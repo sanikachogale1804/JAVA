@@ -18,9 +18,19 @@ class multi_dimensional_array
 		{
 			for(int j=0;j<3;j++)
 			{
-				System.out.println(i+" ");
+				//System.out.println(i+" ");
 				System.out.println(arr1[i][j]);
 			}
 		}
+		System.out.println("======================");
+		//enhanced for loop //iterations
+		for(int n[]:arr1 )
+		{
+			for(int i:n)
+			{
+				System.out.println(i);
+			}
+		}
+		
     }
 }
