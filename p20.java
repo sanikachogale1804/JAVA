@@ -7,6 +7,12 @@ class Product
 	void productDetails()
 	{
 		System.out.println("Product details");
+		System.out.println(productId+" "+productName+" "+price+" ");
+	}
+	
+	void productInfo()
+	{
+		System.out.println("Product Info");
 	}
 }
 
@@ -41,7 +47,8 @@ class p20
 		System.out.println(p3.price);
 		
 		p1.productDetails();
-		p1.productDetails();
+		
+		//p1.productInfo();
 	}
 	
 }
