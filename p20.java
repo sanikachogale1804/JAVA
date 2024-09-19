@@ -1,15 +1,21 @@
 class Product
-{
+{   //instance variable
 	int productId;
 	String productName;
 	int price;
+	
+	void productDetails()
+	{
+		System.out.println("Product details");
+	}
 }
 
 
 class p20
 {
 	public static void main(String args[])
-	{
+	{ 
+//datatype  variable    object
 		Product p1=new Product();
 		Product p2=new Product();
 		Product p3=new Product();
@@ -33,6 +39,9 @@ class p20
 		System.out.println(p3.productId);
 		System.out.println(p3.productName);
 		System.out.println(p3.price);
+		
+		p1.productDetails();
+		p1.productDetails();
 	}
 	
 }

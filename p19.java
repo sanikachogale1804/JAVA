@@ -16,6 +16,12 @@ class Student
 {
 	int rollNo;
 	String name;
+	
+	void studentDetails()
+	{
+		System.out.println("Student details");
+	}
+	
 }
 
 class p19
@@ -33,5 +39,8 @@ class p19
 		System.out.println(s1.name);
 		System.out.println(s2.rollNo);
 		System.out.println(s2.name);
+		
+		s1.studentDetails();
+		
 	}
 }
