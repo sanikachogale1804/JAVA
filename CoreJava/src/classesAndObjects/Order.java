@@ -13,5 +13,11 @@ public class Order {
 		this.orderPrice=orderPrice;
 		
 		System.out.println(this.orderId+" "+this.orderName+" "+this.orderPrice);
+		
+		
+	}
+	double discount()
+	{
+	     return	this.orderPrice*0.2;
 	}
 }
