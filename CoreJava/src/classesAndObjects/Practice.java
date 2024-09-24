@@ -2,22 +2,53 @@ package classesAndObjects;
 
 public class Practice {
 	
-	int id;
-	String name;
-	
-	void setdetails()
+	void isEven(int num)
 	{
-		System.out.println("details:");
-		System.out.println(id+" "+name+" ");
+	   if(num%2==0)
+	   {
+		   System.out.println("even");
+	   }
+	   else
+	   {
+		   System.out.println("odd");
+	   }
+		
 	}
 	
-	int printid()
+	void isPrime(int number)
 	{
-		return id;
+		if(number%2==1)
+		{
+			System.out.println("Prime number:"+number);
+		}
+		else
+		{
+			System.out.println("Not a prime number:"+number);
+		}
+	}
+	
+	void table(int n)
+	{
+		for(int i=1;i<=10;i++)
+		{
+			System.out.println(n*i);
+			
+		}
+			
+	}
+	
+	void factorial(int fact)
+	{
+		for(int i=1;i<=fact;i++)
+		{
+			System.out.println(fact*=i);
+			
+		}
 	}
 	
 	
 	
-}
+	}
+
 
 
