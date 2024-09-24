@@ -15,6 +15,12 @@ public class Category {
 	{
 		System.out.println("category object created");
 	}
+	Category(int categoryId,String categoryName)
+	{
+		this.categoryId=categoryId;
+		this.categoryName=categoryName;
+	}
+	
 	
 	
 }
