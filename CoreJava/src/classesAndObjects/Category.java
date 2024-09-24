@@ -10,9 +10,12 @@ public class Category {
 	//constructor ka name or class ka name same hona chahiye
 	//constructor will be called whenever object will be created
 	//har ek object ke liye constructor load hoga
+	//number of parameters should not be same but in case same hai to type of parameters alag rakho or isiko constructor overloading bolte hai
+	//1 se jyada constructor honge to usko constructor overloading bolenege
 	
 	Category()
 	{
+		//object creation ke time koi value nahi deni to use ye vala use karenge
 		System.out.println("category object created");
 	}
 	Category(int categoryId,String categoryName)
