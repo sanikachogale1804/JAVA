@@ -20,7 +20,10 @@ public class Category {
 		this.categoryId=categoryId;
 		this.categoryName=categoryName;
 	}
-	
-	
+	Category(String categoryName,int categoryId)
+	{
+		this.categoryName=categoryName;
+		this.categoryId=categoryId;
+	}
 	
 }

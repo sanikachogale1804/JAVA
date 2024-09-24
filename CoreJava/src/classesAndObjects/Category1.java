@@ -9,7 +9,9 @@ public class Category1 {
 		new Category();*/
 		System.out.println(c1.categoryId);
 		System.out.println(c1.categoryName);
-		
+		Category c2=new Category("toys",2);
+		System.out.println(c2.categoryName);
+		System.out.println(c2.categoryId);
 		
 	}
 }
