@@ -28,5 +28,11 @@ public class Product {
 	{
 		return this.productPrice*0.2;
 	}
+	
+	Product(int productId,String productName)
+	{
+		this.productId=productId;
+		this.productName=productName;
+	}
 }
 

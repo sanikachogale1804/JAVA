@@ -12,5 +12,7 @@ public class Example1 {
 		o2.OrderDetails(102,"watch",700);
 		
 		System.out.println("pay: "+o2.discount());
+		
+		
 	}
 }
