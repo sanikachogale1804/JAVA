@@ -15,7 +15,11 @@ public class StaticExample {
 		System.out.println(e1.ceo);
 		System.out.println(e2.ceo);
 		System.out.println(e1.empId);
-		
+		System.out.println(e1.empName);
 	}
 	
 }
+//inheritance is used to borrow properties for another class
+//single inheritance(parent and child)
+//inheritance me method bhi milega or constructor bhi milega
+
