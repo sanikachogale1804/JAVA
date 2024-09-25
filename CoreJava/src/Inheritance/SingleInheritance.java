@@ -29,8 +29,7 @@ class B extends A
 	}
 	B(String value)
 	{
-		String name="sneha"
-		super(name);
+		super(value);
 		System.out.println("parameterized constructor(B):"+value);
 	
 	}
@@ -45,6 +44,8 @@ public class SingleInheritance {
 	//child ka object banaya to parent constructor ko bhi call karega
 	//super matlab parent
     //super apko help karta parent ke parametterized constructor call ho
+	//parent constructor ko koi value pohchani hai to super keyword use karenge 
+	//bydefault child ka constructor parent ke non-parameterized constructor ko call karta hai
 	
    public static void main(String[] args) {
 	   
