@@ -6,12 +6,33 @@ class A
 	{
 		return a+b;
 	}
+	
+	A()
+	{
+		System.out.println("constructor A");
+	}
+	A(String value)
+	{
+		System.out.println("parameterized constructor(A):"+value);
+	}
+	
 }
 class B extends A
 {
 	int sub(int a,int b)
 	{
 		return a-b;
+	}
+	B()
+	{
+		System.out.println("constructor B");
+	}
+	B(String value)
+	{
+		String name="sneha"
+		super(name);
+		System.out.println("parameterized constructor(B):"+value);
+	
 	}
 }
 
@@ -21,9 +42,14 @@ public class SingleInheritance {
 	//single inheritance(parent and child)
 	//inheritance me method bhi milega or constructor bhi milega
 	//void ko hum sysout me nahi likhenge kuynki vo kuch return hi nahi kari
+	//child ka object banaya to parent constructor ko bhi call karega
+	//super matlab parent
+    //super apko help karta parent ke parametterized constructor call ho
+	
    public static void main(String[] args) {
 	   
-	   B obj=new B();
+	   B obj=new B("sanika");
+	   System.out.println("=============================");
 	   int sum=obj.add(10,20);
 	   System.out.println("sum is:"+sum);
 	   
