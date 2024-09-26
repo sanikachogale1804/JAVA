@@ -11,3 +11,6 @@ public class SingleInheritance3 {
 	}
 
 }
+
+//Multilevel Inheritance
+//first parent class then child class again child class again child class then isko hum multilevel inheritance bolenge
