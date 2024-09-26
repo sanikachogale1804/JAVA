@@ -35,6 +35,8 @@ public class MultilevelnheritanceEx {
 	
 	public static void main(String[] args) {
 		
+		//yaha pe ek object ke pass sare methods mil rahe hai
+		//void type ka method kuch return nahi kar raha hai is liye usko sysout me nahi likhenge
 		S s1=new S();
 		s1.methodP();
 		s1.methodQ();
@@ -43,7 +45,7 @@ public class MultilevelnheritanceEx {
 		
 		Q q1=new Q();
 		q1.methodP();
-		q1.methodQ();
+		
 		
 	}
 
