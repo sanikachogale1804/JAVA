@@ -17,5 +17,10 @@ public class Device {
 		this.model=model;
 	}
 	
+	void PowerOn()
+	{
+		System.out.println("Device is powered on:");
+	}
+	
 
 }

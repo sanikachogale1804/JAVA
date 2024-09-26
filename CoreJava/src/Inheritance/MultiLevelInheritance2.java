@@ -8,6 +8,9 @@ public class MultiLevelInheritance2 {
 		System.out.println(sp.DeviceName);
 		System.out.println(sp.model);
 		System.out.println(sp.phoneNo);
+		
+		sp.MakeCall();
+		sp.setdetails();
 	}
 
 }

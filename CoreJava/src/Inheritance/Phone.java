@@ -11,5 +11,10 @@ public class Phone extends Device {
 		this.PhoneName=PhoneName;
 		this.phoneNo=phoneNo;
 	}
+	
+	void MakeCall()
+	{
+		System.out.println("making a call");
+	}
 
 }

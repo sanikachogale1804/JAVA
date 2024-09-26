@@ -10,4 +10,8 @@ public class SmartPhone extends Phone{
 		this.batteryLife=batteryLife;
 	}
 	
+	void setdetails()
+	{
+		System.out.println("details");
+	}
 }
