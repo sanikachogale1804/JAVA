@@ -13,5 +13,6 @@ public class SmartPhone extends Phone{
 	void setdetails()
 	{
 		System.out.println("details");
+		System.out.println("batteryLife is:"+batteryLife+"hours");
 	}
 }

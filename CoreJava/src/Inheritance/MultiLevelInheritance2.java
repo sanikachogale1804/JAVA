@@ -11,6 +11,7 @@ public class MultiLevelInheritance2 {
 		
 		sp.MakeCall();
 		sp.setdetails();
+		
 	}
 
 }
