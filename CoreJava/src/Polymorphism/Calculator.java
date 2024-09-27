@@ -28,6 +28,24 @@ public class Calculator {
     	 System.out.println(a+b+c);
      }
      
+     void sub(int a,int b,int c)
+     {
+    	 System.out.println(a-b-c);
+     }
+     void sub(int a,float b,int c,float d)
+     {
+    	 System.out.println(a+b-c+d);
+     }
+     
+     void mul(int a,int b,float c)
+     {
+    	 System.out.println(a*b*c);
+     }
+     void mul(float a,float b)
+     {
+    	 System.out.println(a*b);
+     }
+     
      public static void main(String[] args) {
 		Calculator c=new Calculator();
 		c.add(2,3);
@@ -35,5 +53,10 @@ public class Calculator {
 		//float value ke piche F likhna padta hai otherwise vo double consider karega
 		c.add(3.4F,8.9F);
 		c.add(2.3F,1.9F,6);
+		c.sub(10,8,9);
+		c.sub(12,32.8F,2,4F);
+		c.mul(10,20,30F);
+		c.mul(20F,60F);
+	
 	}
 }
