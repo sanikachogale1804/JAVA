@@ -26,7 +26,11 @@ public class Programmer extends FullTimeEmployee {
 //public metlab  kahi se bhi access karo
 
 
-//Polymorphism
-//poly-many  morphism-forms
+
+
+
+
+
+
 
 
