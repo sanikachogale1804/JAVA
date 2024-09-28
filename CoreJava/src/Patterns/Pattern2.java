@@ -2,9 +2,9 @@ package Patterns;
 
 class pattern{
 	
-	void squareframe()
+	void squareframe(int n)
 	{
-		int n=10;
+		
 		
 		{
 			for(int j=1;j<=n;j++)
@@ -35,7 +35,7 @@ public class Pattern2 {
 		
 		for(int i=1;i<=10;i++)
 		{
-			p.squareframe();
+			p.squareframe(12);
 			System.out.println();
 		}
 		
