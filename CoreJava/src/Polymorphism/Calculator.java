@@ -6,7 +6,7 @@ package Polymorphism;
 //method overloading -apke method ka name same hoga but number of parameters or type of parameters will be different
 
 public class Calculator {
-	//add method ko overload kiya kuynki yaha add method ke 3 forms hai
+	//add method ko overload kiya kuynki yaha add method ke 4 forms hai
 	
      void add(int a,int b)
      {
