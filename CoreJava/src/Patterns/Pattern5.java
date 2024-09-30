@@ -20,14 +20,16 @@ public class Pattern5 {
 		}	
 		System.out.println("=========================");
 		
-		int sum=0;
-		int num=1000;
-		for(int i=1;i<=num;++i)
+		for(int i=1;i<=10;i++)
 		{
-			sum=sum+i;
-			
+			System.out.println(i);
+			if(i==6)
+			{
+				break;
+			}
 		}
-		System.out.println("sum is:"+sum);
+		
+		
 	}
 	
 }
