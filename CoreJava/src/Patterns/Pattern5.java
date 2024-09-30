@@ -20,16 +20,10 @@ public class Pattern5 {
 		}	
 		System.out.println("=========================");
 		
-		for(int i=1;i<=10;i++)
+		n=10;
+		for(int i=1;i<=n;i++)
 		{
-			
-			if(i==6)
-			{
-				continue;
-				
-			}
-			System.out.println(i);
-			
+			System.out.println(n*i);
 		}
 		
 		
