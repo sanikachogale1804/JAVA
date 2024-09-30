@@ -29,7 +29,7 @@ public class Pattern5 {
 		System.out.println("Enter the table number:");
 		int t=sc.nextInt();
 		
-		for(s=1;s<=e;s++)
+		for(s=10;s>=e;s--)
 		{
 			System.out.println(s+"*"+t+ " " +"="+(s*t));
 		}
