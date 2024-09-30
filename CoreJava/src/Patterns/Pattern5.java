@@ -1,10 +1,11 @@
 package Patterns;
+import java.util.Scanner;
 
 public class Pattern5 {
 
 	public static void main(String[] args) {
 		
-		int n=6;
+		/*int n=6;
 		for(int i=1;i<=n;i++)
 		{
 			for(int j=1;j<=n-i;j++)
@@ -18,14 +19,20 @@ public class Pattern5 {
 			
 			System.out.println();
 		}	
-		System.out.println("=========================");
+		System.out.println("=========================");*/
 		
-		n=10;
-		for(int i=1;i<=n;i++)
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter starting number:");
+		int s=sc.nextInt();
+		System.out.println("Enter ending number:");
+		int e=sc.nextInt();
+		System.out.println("Enter the table number:");
+		int t=sc.nextInt();
+		
+		for(s=1;s<=e;s++)
 		{
-			System.out.println(n*i);
+			System.out.println(s+"*"+t+ " " +"="+(s*t));
 		}
-		
 		
 	}
 	
