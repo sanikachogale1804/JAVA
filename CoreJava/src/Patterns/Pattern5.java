@@ -22,11 +22,14 @@ public class Pattern5 {
 		
 		for(int i=1;i<=10;i++)
 		{
-			System.out.println(i);
+			
 			if(i==6)
 			{
-				break;
+				continue;
+				
 			}
+			System.out.println(i);
+			
 		}
 		
 		
