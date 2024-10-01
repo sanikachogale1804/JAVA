@@ -11,6 +11,7 @@ package Abstraction;
 //agar apne abstract class banaya hai to directly uska object nahi bana sakte because uske pass implementation nahi hai
 //start method ka implementation provide karna padega and its compulsory
 //override karna matlab same exact copy banana
+//implementation nahi diya matlab surly braces nahi lagaya
 
 abstract class Electronics{
 	
