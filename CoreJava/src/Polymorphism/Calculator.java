@@ -4,6 +4,7 @@ package Polymorphism;
 //ek method kya allag alag kam kar sakta hai vo hum dekhte hai
 //polymorphism ke 2 types hote hai 1-method overloading 2-method overriding
 //method overloading -apke method ka name same hoga but number of parameters or type of parameters will be different
+//method overloading-compile time polymorphism hai
 
 public class Calculator {
 	//add method ko overload kiya kuynki yaha add method ke 4 forms hai
@@ -60,3 +61,20 @@ public class Calculator {
 	
 	}
 }
+
+//Method overriding-run time polymorphism matlab run karte samay usko samaj aayega
+//Two different classes me
+//same method name
+//same number of parameters
+//and same type of parameters
+//real use of method overriding abstraction me hoga
+
+
+
+
+
+
+
+
+
+
