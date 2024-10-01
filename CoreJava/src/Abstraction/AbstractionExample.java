@@ -15,6 +15,8 @@ package Abstraction;
 abstract class Electronics{
 	
 	abstract void start();
+	abstract void stop();
+	
 	
 }
 
@@ -24,13 +26,23 @@ class TV extends Electronics  //tv me start method hona hi chahiye usko hi abstr
 	{
 		System.out.println("Tv started:");
 	}
+	
+	void stop()
+	{
+		System.out.println("Tv stopped:");
+	}
 }
 
 class AC extends Electronics
 {
 	void start()
 	{
-		System.out.println("Ac started");
+		System.out.println("Ac started:");
+	}
+	
+	void stop()
+	{
+		System.out.println("AC stopped:");
 	}
 }
 
@@ -40,6 +52,8 @@ public class AbstractionExample {
 		
 		new TV().start();
 		new AC().start();
+		new TV().stop();
+		new AC().stop();
 		
 	}
 
