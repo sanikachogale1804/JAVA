@@ -55,6 +55,19 @@ public class AbstractionExample {
 		new TV().stop();
 		new AC().stop();
 		
+		Electronics WashingMachine=new Electronics() {
+			void start()
+			{
+				System.out.println("WashingMachine start:");
+			}
+			void stop()
+			{
+				System.out.println("WashingMachine stop:");
+			}
+		};
+		WashingMachine.start();
+		WashingMachine.stop();
+		
 	}
 
 }
