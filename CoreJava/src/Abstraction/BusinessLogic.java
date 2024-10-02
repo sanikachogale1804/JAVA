@@ -17,6 +17,6 @@ class weekends extends BusinessLogic
 {
 		void coupons()
 		{
-			System.out.println("weeends coupons:");
+			System.out.println("weeknds coupons:");
 		}
 }

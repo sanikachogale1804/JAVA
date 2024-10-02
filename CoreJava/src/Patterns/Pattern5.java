@@ -21,19 +21,14 @@ public class Pattern5 {
 		}	
 		System.out.println("=========================");*/
 		
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter starting number:");
-		int s=sc.nextInt();
-		System.out.println("Enter ending number:");
-		int e=sc.nextInt();
-		System.out.println("Enter the table number:");
-		int t=sc.nextInt();
-		
-		for(s=10;s>=e;s--)
+		for(int i=1;i<=100;i++)
 		{
-			System.out.println(s+"*"+t+ " " +"="+(s*t));
+			if(i%2==0)
+			{
+				System.out.println(i);
+			}
+			
 		}
-		
 	}
 	
 }
