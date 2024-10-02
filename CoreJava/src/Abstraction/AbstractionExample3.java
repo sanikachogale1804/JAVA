@@ -13,16 +13,14 @@ public class AbstractionExample3 {
 		weekdays.coupons();
 		
 		new weekends().coupons();
-Scanner sc=new Scanner(System.in);
-		
-		for(int i=1;i<=5;i++)
+		int n;
+		do
 		{
-			System.out.println(i);
-			if(i==3)
-			{
-				break;
-			}
-		}
+			System.out.println("Hello");
+		    n=sc.nextInt();
+			n++;
+			n++;
+		}while(n<=5);
 		
 	}
 }
