@@ -6,6 +6,7 @@ public class InterfaceEx {
 		A a1=new A();
 		a1.display();
 		a1.square(5);
+		a1.subtraction(20,10);
 	}
 	
 
