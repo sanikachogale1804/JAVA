@@ -28,6 +28,20 @@ public class IntarfaceEx2 {
 		axis.details();
 		axis.address();
 		
+		Bank baroda=new Bank() {
+			public void details()
+			{
+				System.out.println("Baroda bank");
+			}
+			
+			public void address()
+			{
+				System.out.println("Address of Baroda Bank");
+			}
+		};
+		
+		baroda.details();
+		
 	}
 
 }
