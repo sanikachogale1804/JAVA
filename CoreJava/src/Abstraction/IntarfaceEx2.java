@@ -8,9 +8,12 @@ public class IntarfaceEx2 {
 //datatype  variable 
 		Bank s=new SBI();
 		s.details();
+		s.methodOfBank();
 		Bank ic=new ICICI();
 		ic.details();
 		ic.address();
+		ic.methodOfBank();
+		Bank.staticmethod();  //static method ko hum class ke name ke through access kar sakte hai object ki jarurat nahi hai
 	}
 
 }
