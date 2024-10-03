@@ -14,6 +14,20 @@ public class IntarfaceEx2 {
 		ic.address();
 		ic.methodOfBank();
 		Bank.staticmethod();  //static method ko hum class ke name ke through access kar sakte hai object ki jarurat nahi hai
+		
+		Bank axis=new Bank() {
+			public void details()
+			{
+				System.out.println("AXIS bank");
+			}
+			
+			public void address() {
+				System.out.println("Address of AXIC Bank");
+			};
+		};
+		axis.details();
+		axis.address();
+		
 	}
 
 }
