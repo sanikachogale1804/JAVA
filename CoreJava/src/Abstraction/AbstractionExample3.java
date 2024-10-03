@@ -13,14 +13,8 @@ public class AbstractionExample3 {
 		weekdays.coupons();
 		
 		new weekends().coupons();
-		int n;
-		do
-		{
-			System.out.println("Hello");
-		    n=sc.nextInt();
-			n++;
-			n++;
-		}while(n<=5);
+	
+		
 		
 	}
 }
