@@ -39,7 +39,7 @@ public class InterfaceEx6 {
 		System.out.println(obj2.add(160,10));
 		
 		I8 obj3=(n)->n*n;
-		System.out.println(obj3.square(5));
+		System.out.println(obj3.square(28));
 	}
 
 }
