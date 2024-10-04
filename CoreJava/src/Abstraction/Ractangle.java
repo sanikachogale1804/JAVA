@@ -7,4 +7,8 @@ public class Ractangle implements Shape{
 		System.out.println("area of rectangle");
 	}
 
+	public void display()
+	{
+		System.out.println("display area recatngle");
+	}
 }

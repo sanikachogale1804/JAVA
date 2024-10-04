@@ -7,6 +7,10 @@ public class InterfaceEx4 {
 		s.area();
 		Shape s1=new Ractangle();
 		s1.area();
+		Circle c=new Circle();
+		c.display();
+		Shape s2=new Ractangle();
+		s2.display();
 	}
 
 }
