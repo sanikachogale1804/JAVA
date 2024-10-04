@@ -9,16 +9,17 @@ public class InterfaceEx7 {
 
 	public static void main(String[] args) {
 		
-		/*I7 i=new I7() {
-			public void printNum()
+		Practice p=new Practice() {
+			public void printNum(int n)
 			{
-				System.out.println("12,67");
+				System.out.println(n);
 			}
 		};
-		i.printNum();*/
 		
-		Practice p=(n)->System.out.println( n);
 		p.printNum(12);
+		
+		/*Practice p=(n)->System.out.println( n);
+		p.printNum(12);*/
 		
 	}
 	
