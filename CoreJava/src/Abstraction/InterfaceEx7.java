@@ -68,6 +68,9 @@ public class InterfaceEx7 {
 		I9 squ=(a)->a*a;
 		System.out.println(squ.square(30));
 		
+		I10 printcube=(a)->a*a*a;
+		System.out.println(printcube.cube(4));
+		
 	}
 	
 }
