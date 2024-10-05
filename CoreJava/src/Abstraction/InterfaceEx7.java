@@ -22,7 +22,7 @@ interface subnumbers
 @FunctionalInterface
 interface I9
 {
-	int square(int a,int b);
+	int square(int a);
 }
 
 public class InterfaceEx7 {
@@ -60,7 +60,9 @@ public class InterfaceEx7 {
 		int subtraction=numbers.sub(30,20);
 		System.out.println(subtraction);
 		
-		
+		I9 squ=(a)->a*a;
+		int printsquare=squ.square(10);
+		System.out.println(printsquare);
 	}
 	
 }
