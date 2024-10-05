@@ -19,6 +19,12 @@ interface subnumbers
 {
 	int sub(int a,int b);
 }
+@FunctionalInterface
+interface I9
+{
+	int square(int a,int b);
+}
+
 public class InterfaceEx7 {
 
 	public static void main(String[] args) {
@@ -53,6 +59,8 @@ public class InterfaceEx7 {
 		subnumbers numbers=(a,b)->a-b;
 		int subtraction=numbers.sub(30,20);
 		System.out.println(subtraction);
+		
+		
 	}
 	
 }
