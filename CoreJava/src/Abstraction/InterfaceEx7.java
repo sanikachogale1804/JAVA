@@ -14,6 +14,11 @@ interface addnumbers
 {
 	int add(int a,int b);
 }
+@FunctionalInterface
+interface subnumbers
+{
+	int sub(int a,int b);
+}
 public class InterfaceEx7 {
 
 	public static void main(String[] args) {
@@ -42,9 +47,12 @@ public class InterfaceEx7 {
 		p1.printName("sanika");
 		
 		addnumbers num=(a,b)->a+b;
-		int sum=num.add(10,20);
+		int sum=num.add(20,50);
 		System.out.println(sum);
 		
+		subnumbers numbers=(a,b)->a-b;
+		int subtraction=numbers.sub(30,20);
+		System.out.println(subtraction);
 	}
 	
 }
