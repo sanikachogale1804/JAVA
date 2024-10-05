@@ -25,8 +25,16 @@ public class InterfaceEx7 {
 		Practice p=(n)->System.out.println(n);
 		p.printNum(12);
 	
-		Practice1 p1=(name)->System.out.println(name);
-		p1.printName("my name is sanika");
+		/*new Pracice1() 
+		{
+			public void printName(String name)
+			{
+				System.out.println("sanika");
+			}
+		};*/
+		
+		Practice1 p1=(name)->System.out.println("my name is:"+name);
+		p1.printName("sanika");
 		
 	}
 	
