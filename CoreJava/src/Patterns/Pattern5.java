@@ -20,15 +20,17 @@ public class Pattern5 {
 			System.out.println();
 		}	
 		System.out.println("=========================");*/
-		
 		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();
-		int fact=1;
-		for(int i=1;i<=n;i++)
+		System.out.println("Enter base value:");
+		int base=sc.nextInt();
+		System.out.println("Enter power value:");
+		int power=sc.nextInt();
+		int result=1;
+		for(int i=1;i<=power;i++)
 		{
-			fact=fact*i;
+			result*=base;
 		}
-		System.out.println("factorial is:"+fact);
+		System.out.println(result);
 	}
 	
 }
