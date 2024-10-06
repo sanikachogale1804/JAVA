@@ -20,11 +20,9 @@ public class Pattern5 {
 			System.out.println();
 		}	
 		System.out.println("=========================");*/
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter base value:");
-		int base=sc.nextInt();
-		System.out.println("Enter power value:");
-		int power=sc.nextInt();
+		
+		int base=2;
+		int power=6;
 		int result=1;
 		for(int i=1;i<=power;i++)
 		{
