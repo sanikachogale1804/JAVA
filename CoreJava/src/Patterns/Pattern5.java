@@ -21,13 +21,9 @@ public class Pattern5 {
 		}	
 		System.out.println("=========================");*/
 		
-		for(int i=1;i<=100;i++)
+		for(int i=1;i<=255;i++)
 		{
-			if(i%2==0)
-			{
-				System.out.println(i);
-			}
-			
+			System.out.println((char)i);
 		}
 	}
 	

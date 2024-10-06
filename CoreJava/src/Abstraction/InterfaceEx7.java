@@ -76,7 +76,7 @@ public class InterfaceEx7 {
 		System.out.println(printcube.cube(4));
 		
 		I11 Even=(a)->a%2==0;
-		System.out.println(Even.isEven(11));
+		System.out.println(Even.isEven(111));
 		
 	}
 	
