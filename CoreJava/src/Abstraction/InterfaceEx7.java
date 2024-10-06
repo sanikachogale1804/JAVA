@@ -34,6 +34,11 @@ interface I11
 {
 	boolean isEven(int a);
 }
+@FunctionalInterface
+interface I12
+{
+	void checkEven(int a);
+}
 
 public class InterfaceEx7 {
 
@@ -80,6 +85,8 @@ public class InterfaceEx7 {
 		boolean check=checkNum.isEven(11);
 		System.out.println(check);
 		
+		I12 even=(a)->System.out.println(a%2==0);
+		even.checkEven(12);
 	}
 	
 }
