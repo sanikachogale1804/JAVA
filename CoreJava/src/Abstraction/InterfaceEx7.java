@@ -34,6 +34,7 @@ interface I11
 {
 	boolean isEven(int a);
 }
+
 public class InterfaceEx7 {
 
 	public static void main(String[] args) {
@@ -75,8 +76,8 @@ public class InterfaceEx7 {
 		I10 printcube=(a)->a*a*a;
 		System.out.println(printcube.cube(4));
 		
-		I11 Even=(a)->a%2==0;
-		System.out.println(Even.isEven(111));
+		
+		
 		
 	}
 	
