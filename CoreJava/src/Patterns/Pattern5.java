@@ -21,13 +21,14 @@ public class Pattern5 {
 		}	
 		System.out.println("=========================");*/
 		
-		int n=5;
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
 		int fact=1;
 		for(int i=1;i<=n;i++)
 		{
 			fact=fact*i;
 		}
-		System.out.println(fact);
+		System.out.println("factorial is:"+fact);
 	}
 	
 }
