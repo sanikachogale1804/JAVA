@@ -76,8 +76,9 @@ public class InterfaceEx7 {
 		I10 printcube=(a)->a*a*a;
 		System.out.println(printcube.cube(4));
 		
-		
-		
+		I11 checkNum=(a)->a%2==0;
+		boolean check=checkNum.isEven(11);
+		System.out.println(check);
 		
 	}
 	
