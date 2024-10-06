@@ -21,10 +21,13 @@ public class Pattern5 {
 		}	
 		System.out.println("=========================");*/
 		
-		for(int i=1;i<=255;i++)
+		int n=5;
+		int fact=1;
+		for(int i=1;i<=n;i++)
 		{
-			System.out.println((char)i);
+			fact=fact*i;
 		}
+		System.out.println(fact);
 	}
 	
 }
