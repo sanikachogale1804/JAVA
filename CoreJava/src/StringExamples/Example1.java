@@ -34,6 +34,8 @@ public class Example1 {
 		System.out.println(a==c);
 		System.out.println(b==d);
 		System.out.println(d==c);
+		
+		
 	}
 	
 }
