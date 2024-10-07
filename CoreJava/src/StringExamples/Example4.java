@@ -8,6 +8,11 @@ public class Example4 {
 		s1=s1.concat(" world");
 		System.out.println(s1);
 		
+		String a="Hello";
+		String b="HELLO";
+		
+		System.out.println(a==b);
+		
 	}
 	
 }
