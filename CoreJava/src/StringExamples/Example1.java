@@ -8,7 +8,7 @@ package StringExamples;
 //Strings are immultable matlab it cannot be changed
 //jitne bhi unrefrenced object hai usko java nikal deta hai usko garbage collection bolte hai
 //new keyword se hum object banaynge vo nahi dekhega hello present hai ki nahi par string literal check karega aur agar string present hai to vo vapas nahi banayega
-
+//string equal operations se nahi hota
 
 public class Example1 {
 
@@ -33,6 +33,7 @@ public class Example1 {
 		System.out.println(a==b);
 		System.out.println(a==c);
 		System.out.println(b==d);
+		System.out.println(d==c);
 	}
 	
 }
