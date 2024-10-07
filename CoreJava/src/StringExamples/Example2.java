@@ -26,6 +26,12 @@ public class Example2 {
         String d="a";
         
         System.out.println(c.compareTo(d));
+        System.out.println("===============================");
+        
+        String s="INDIA";
+        System.out.println(s.toLowerCase());
+        //s=s.toLowerCase(;
+        System.out.println(s);
         
 	}	
 }
