@@ -6,10 +6,11 @@ public class Example3 {
 		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter password:");
-		String pass=sc.next();
+		String pass=sc.nextLine();
 		String password="X0123";
 		
-		if(pass.equals("X0123"))
+	  //if(password.compareTo(pass)==0)
+		if(password.equals(pass))
 		{
 			System.out.println("login successful");
 		}
