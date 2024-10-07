@@ -13,20 +13,10 @@ public class Category {
 	//number of parameters should not be same but in case same hai to type of parameters alag rakho or isiko constructor overloading bolte hai
 	//1 se jyada constructor honge to usko constructor overloading bolenege
 	
-	Category()
-	{
-		//object creation ke time koi value nahi deni to use ye vala use karenge
-		System.out.println("category object created");
-	}
 	Category(int categoryId,String categoryName)
 	{
 		this.categoryId=categoryId;
 		this.categoryName=categoryName;
-	}
-	Category(String categoryName,int categoryId)
-	{
-		this.categoryName=categoryName;
-		this.categoryId=categoryId;
 	}
 	
 }
