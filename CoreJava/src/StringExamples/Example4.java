@@ -13,7 +13,22 @@ public class Example4 {
 		
 		System.out.println("He         l l          o         ".trim()+"wolrd");
 		System.out.println("sanika".length());
-		System.out.println("sanika".charAt(1));
+		System.out.println("sanika".charAt(2));   //index diya fir character mila
+		
+		System.out.println("===========================");
+		System.out.println("apple".indexOf('p',3));
+		System.out.println("laptop".indexOf('p',4));
+		//stsrtswith to check the jo aap ne mention kiya hai string woh usi se start hua hai ki nahi
+		System.out.println("Laptop".startsWith("L"));
+		
+		//to charArray matlab string chaaracter array me convert karti hai
+		//charAt() for loop ke liye use karenge and tocharArray() enhanced loop se chalaynge
+		String s2="bootle";
+		char arr[]=s2.toCharArray();
+		for(char ch:arr)
+		{
+			System.out.println(ch);
+		}
 	}
 	
 }
