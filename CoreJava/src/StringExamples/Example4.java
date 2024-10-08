@@ -8,16 +8,12 @@ public class Example4 {
 		s1=s1.concat(" world");
 		System.out.println(s1);
 		System.out.println("==========================");
-		String a="Hello";
-		String b="HELLO";
 		
-		System.out.println(a.equalsIgnoreCase(b));
+		//trim is method which removes starting and ending space ,beech ka space nahi niklega
 		
-		String c=new String("Hello");
-		String d=new String("HELLO");
-		
-		System.out.println(c.equalsIgnoreCase(d));
-		
+		System.out.println("He         l l          o         ".trim()+"wolrd");
+		System.out.println("sanika".length());
+		System.out.println("sanika".charAt(1));
 	}
 	
 }

@@ -30,7 +30,7 @@ public class Example2 {
         
         String s="INDIA";
         System.out.println(s.toLowerCase());
-        //s=s.toLowerCase(;
+        //s=s.toLowerCase();
         System.out.println(s);
         
 	}	
