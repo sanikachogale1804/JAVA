@@ -12,6 +12,14 @@ public class Example6 {
 		System.out.println(sb);
 		sb.reverse();
 		System.out.println(sb);
+		 //    start end  replace
+		sb.replace(0,2,"******"); //2 is exclusive(2 is not included)
+		System.out.println(sb);
+		sb.append("World"); //append matlab ending me chijo ko jodna
+		System.out.println(sb);
+		//delete me hum batate hai starting and ending index
+		sb.delete(0,7);
+		System.out.println(sb);
 	}
 	
 	
