@@ -8,7 +8,27 @@ public class Example8 {
 		System.out.println("====================");
 		System.out.println("riya".length());
 		System.out.println("====================");
-		System.out.println("siddhesh".charAt(2));
+		System.out.println("siddhesh".charAt(7));
+		System.out.println("====================");
+		System.out.println("siddhesh".indexOf('d',3));
+		System.out.println("apple".indexOf('p',4));
+		System.out.println("Laptop".indexOf('p',2));
+		System.out.println("====================");
+		System.out.println("Laptop".startsWith("La"));
+		System.out.println("====================");
+		String s2="sanika";
+		char arr[]=s2.toCharArray();
+		for(char ch:arr)
+		{
+			System.out.println(ch);
+		}
+		
+		String s3="sneha";
+		for(int i=(s3.length()-1);i>0;i++)
+		{
+			System.out.println(s3.charAt(i));
+		}
+	
 	}
 	
 }
