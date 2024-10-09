@@ -21,14 +21,12 @@ public class Pattern5 {
 		}	
 		System.out.println("=========================");*/
 		
-		int base=2;
-		int power=6;
-		int result=1;
-		for(int i=1;i<=power;i++)
+		Scanner sc=new Scanner(System.in);
+		int num=0;
+		for(int i=10;i>=num;i--)
 		{
-			result*=base;
+			System.out.print(i);
 		}
-		System.out.println(result);
 	}
 	
 }

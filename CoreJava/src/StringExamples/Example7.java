@@ -9,3 +9,4 @@ public class Example7 {
 	   System.out.println("Hello".substring(2,3));
    }
 }
+

@@ -20,6 +20,10 @@ public class Example5 {
 				count++;	
 		}
 		System.out.println(count);
+		
+		String vowels="Hello world";
+		int count=0;
+		
 	
 		//1)count number of vowels in string
 		//2)palindrome
