@@ -43,4 +43,9 @@ public class Student {
 	{
 		return this.age;
 	}
+	
+	public String toString()
+	{
+		return this.Id+" "+this.name;
+	}
 }

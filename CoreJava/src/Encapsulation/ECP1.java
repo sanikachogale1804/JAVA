@@ -20,6 +20,8 @@ public class ECP1 {
 		//System.out.println(s2.getAge());
 		int age=s2.getAge();
 		System.out.println(s2.getAge());
+		
+		System.out.println(s1);
 	}
 	
 }
