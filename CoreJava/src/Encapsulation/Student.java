@@ -9,6 +9,7 @@ package Encapsulation;
 //value set karne ka return type void hi rakenge
 //get ke time value mang rahe hai is liye parameter nahi diya
 //setId giving nothing to me(kuch return nahi kara hai) is liye hum variable me store nahi karenge
+//security purpose (it set security layer on the class)
 public class Student {
 
 	private int Id;
@@ -18,9 +19,12 @@ public class Student {
 	{
 		this.Id=Id;
 	}
-	public int getId()
+	public int getId(String password)
 	{
+		if(password.equals("u#1"))
 		return this.Id;
+		else
+			return 0;
 	}
 	
 	public void setName(String name)

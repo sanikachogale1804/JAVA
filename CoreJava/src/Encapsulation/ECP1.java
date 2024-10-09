@@ -6,8 +6,10 @@ public class ECP1 {
 		Student s1=new Student();
 		s1.setId(101);
 	  //System.out.println(s1.getId());
-		int Id=s1.getId();
-		System.out.println(Id);
+	//  int Id=s1.getId();
+	//	System.out.println(id);
+		int id=s1.getId("u#1");
+		System.out.println(id);
 		s1.setName("sanika");
 		//System.out.println(s1.getName());
 		String s=s1.getName();
