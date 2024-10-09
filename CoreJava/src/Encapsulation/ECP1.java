@@ -8,10 +8,16 @@ public class ECP1 {
 	  //System.out.println(s1.getId());
 		int Id=s1.getId();
 		System.out.println(Id);
-		s1.setname("sanika");
-		//System.out.println(s1.getname());
-		String s=s1.getname();
+		s1.setName("sanika");
+		//System.out.println(s1.getName());
+		String s=s1.getName();
 		System.out.println(s);
+		
+		Student s2=new Student();
+		s2.setAge(20);
+		//System.out.println(s2.getAge());
+		int age=s2.getAge();
+		System.out.println(s2.getAge());
 	}
 	
 }

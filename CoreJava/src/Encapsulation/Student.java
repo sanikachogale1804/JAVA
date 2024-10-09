@@ -8,10 +8,12 @@ package Encapsulation;
 //har ek variable ka setter alag alag hoga
 //value set karne ka return type void hi rakenge
 //get ke time value mang rahe hai is liye parameter nahi diya
+//setId giving nothing to me(kuch return nahi kara hai) is liye hum variable me store nahi karenge
 public class Student {
 
 	private int Id;
 	private String name;
+	private int age;
 	public void setId(int Id)
 	{
 		this.Id=Id;
@@ -21,13 +23,20 @@ public class Student {
 		return this.Id;
 	}
 	
-	public void setname(String name)
+	public void setName(String name)
 	{
 		this.name=name;
 	}
-	public String getname()
+	public String getName()
 	{
 		return this.name;
 	}
-	
+	public void setAge(int age)
+	{
+		this.age=age;
+	}
+	public int getAge()
+	{
+		return this.age;
+	}
 }
