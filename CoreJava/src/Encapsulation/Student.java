@@ -11,6 +11,7 @@ package Encapsulation;
 public class Student {
 
 	private int Id;
+	private String name;
 	public void setId(int Id)
 	{
 		this.Id=Id;
@@ -18,6 +19,15 @@ public class Student {
 	public int getId()
 	{
 		return this.Id;
+	}
+	
+	public void setname(String name)
+	{
+		this.name=name;
+	}
+	public String getname()
+	{
+		return this.name;
 	}
 	
 }

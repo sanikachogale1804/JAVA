@@ -8,6 +8,10 @@ public class ECP1 {
 	  //System.out.println(s1.getId());
 		int Id=s1.getId();
 		System.out.println(Id);
+		s1.setname("sanika");
+		//System.out.println(s1.getname());
+		String s=s1.getname();
+		System.out.println(s);
 	}
 	
 }
