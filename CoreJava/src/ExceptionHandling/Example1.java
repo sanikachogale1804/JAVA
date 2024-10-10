@@ -13,7 +13,7 @@ public class Example1 {
 		try
 		{
 			System.out.println(5/0);
-		}catch(ArithmeticException e)   //e is a variable name
+		}catch(ArithmeticException e)   //e is a variable(apka object is variable me store hoga) name and ArithmeticException is readymade class created by java
 		{
 			System.out.println(e);
 			//System.out.println("we can not divide number by zero");
