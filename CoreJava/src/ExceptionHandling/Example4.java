@@ -6,10 +6,10 @@ public class Example4 {
 		
 		String s="Laptop";
 		try {
-			s.charAt(80);
+			System.out.println(s.charAt(20));
 		}catch(StringIndexOutOfBoundsException e)
 		{
-			System.out.println("Index out of bound");
+			System.out.println(e);
 		}
 		System.out.println("code after exception");
 	}
