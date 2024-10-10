@@ -19,7 +19,7 @@ public class Example3 {
 		{
 			System.out.println("Invalid input");
 		}
-		catch(ArithmeticException ex)
+		catch(ArithmeticException e)
 		{
 			System.out.println("You cannot divide number by 0");
 		}
