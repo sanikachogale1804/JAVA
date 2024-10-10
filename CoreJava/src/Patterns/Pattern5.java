@@ -20,13 +20,16 @@ public class Pattern5 {
 			System.out.println();
 		}	
 		System.out.println("=========================");*/
-		
-		Scanner sc=new Scanner(System.in);
-		int num=0;
-		for(int i=10;i>=num;i--)
+		int n=4;
+		for(int i=n;i>=1;i--)
 		{
-			System.out.print(i);
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
 		}
+		
 	}
 	
 }

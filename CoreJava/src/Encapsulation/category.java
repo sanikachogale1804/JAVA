@@ -21,4 +21,9 @@ public class category {
 	{
 		return this.name;
 	}
+	
+	public String toString()
+	{
+		return this.id+this.name;
+	}
 }

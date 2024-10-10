@@ -9,6 +9,10 @@ public class ECP2 {
 		c.setName("sanika");
 		String name=c.getName();
 		System.out.println(name);
+		System.out.println(c);
 	}
 	
 }
+
+
+//
