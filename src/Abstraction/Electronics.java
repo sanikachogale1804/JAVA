@@ -18,3 +18,14 @@ class TV extends Electronics{
 	};
 	
 }
+
+class Mobile extends Electronics{
+	
+	public void start() {
+		System.out.println("Mobile started");
+	};
+	
+	public void stop() {
+		System.out.println("Mobile stopped");
+	};
+}
