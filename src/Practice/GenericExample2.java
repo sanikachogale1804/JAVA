@@ -20,7 +20,7 @@ public class GenericExample2 {
 				}
 			}	
 		};
-		s.setMarks(76);
+		s.accept(65);
 	}
 
 }
