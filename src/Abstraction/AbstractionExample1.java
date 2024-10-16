@@ -18,8 +18,11 @@ public class AbstractionExample1 {
 			void stop() {
 				System.out.println("wm stopped:");
 			}
+			void details() {
+				System.out.println("wm details");
+			}
 		};
-		WashingMachine.start();
+		
 	}
 	
 	
