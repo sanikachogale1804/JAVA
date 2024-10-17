@@ -1,5 +1,6 @@
 package LearnCollection;
 import java.util.LinkedList;
+import java.util.function.Predicate;
 
 public class ListExample5 {
 
@@ -24,6 +25,13 @@ public class ListExample5 {
         System.out.println("===================");
         //set method will replace elements and add wil add elements and shift elements 
         list.set(0,100);
+        System.out.println(list);
+        System.out.println("===================");
+        //list ka type jo hai vahi predicate ka type hoga
+        
+        /*Predicate<Integer> even=(num)->num%2==0;
+        list.removeIf(even); */ //removeIf sare even numbers ko nikal dega
+        list.removeIf((num)->num%2==0);
         System.out.println(list);
 	}
 
