@@ -1,9 +1,8 @@
 package LinkedAndArrayList;
 
 import java.util.LinkedList;
-import java.util.function.Predicate;
 
-public class LinkedListExample4 {
+public class LinkedListexample5 {
 
 	public static void main(String[] args) {
 		LinkedList<Integer> list=new LinkedList<Integer>();
@@ -13,11 +12,7 @@ public class LinkedListExample4 {
 		list.add(25);
 		System.out.println(list);
 		
-		Predicate<Integer> num=(n)->n%7==0;
-		list.removeIf(num);
-		System.out.println(list);
-		
 		
 	}
-	
+
 }
