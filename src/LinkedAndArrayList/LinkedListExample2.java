@@ -21,7 +21,7 @@ public class LinkedListExample2 {
 		
 		Predicate<String> n=(name)->name.startsWith("r");
 		names.removeIf(n);
-		
+		System.out.println(names);
 	}
 
 }
