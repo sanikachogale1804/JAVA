@@ -19,8 +19,9 @@ public class LinkedListExample2 {
 		names.removeIf(n);
 		System.out.println(names);*/
 		
-		names.removeIf((name)->name.startsWith("t"));
-		System.out.println(names);
+		Predicate<String> n=(name)->name.startsWith("r");
+		names.removeIf(n);
+		
 	}
 
 }
