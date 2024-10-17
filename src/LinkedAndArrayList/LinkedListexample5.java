@@ -1,6 +1,7 @@
 package LinkedAndArrayList;
 
 import java.util.LinkedList;
+import java.util.function.Predicate;
 
 public class LinkedListexample5 {
 
@@ -12,7 +13,9 @@ public class LinkedListexample5 {
 		list.add(25);
 		System.out.println(list);
 		
-		
+	    Predicate<Integer> primeNumber=(p)->p%2==0;
+	    list.removeIf(primeNumber);
+	    System.out.println(list);
 	}
 
 }

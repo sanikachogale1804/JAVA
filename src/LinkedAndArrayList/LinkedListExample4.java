@@ -17,7 +17,6 @@ public class LinkedListExample4 {
 		list.removeIf(num);
 		System.out.println(list);
 		
-		
 	}
 	
 }
