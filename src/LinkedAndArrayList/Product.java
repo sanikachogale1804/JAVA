@@ -27,6 +27,10 @@ public class Product {
 	public int getPrice() {
 		return this.price;
 	}
+	Product()
+	{
+		
+	}
 	
 	Product(int id,String name,int price){
 		this.id=id;
