@@ -14,6 +14,14 @@ public class Array3 {
 				System.out.println(num[i][j]);
 			}
 		}
+		System.out.println("==============");
+		for(int n[]:num)
+		{
+			for(int i:n)
+			{
+			System.out.println(i);	
+			}
+		}
 	}
 	
 }
