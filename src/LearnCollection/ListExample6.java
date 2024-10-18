@@ -1,6 +1,7 @@
 package LearnCollection;
 
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.function.Predicate;
 
@@ -31,7 +32,14 @@ public class ListExample6 {
 		System.out.println("===================");
 		//java ke pass logic nahi hai to compare two objects
 		//whenever you calles collection method internally compareTo method call hoga
-		Collections.sort(products);
+		//comparator ka type product hoga kunki hum product ke liye logic likhre
+		
+		//Collections.sort(products);
+		Comparator<Product> priceComparator=(p1,p2)->p1.getProductPrice()-p2.getProductPrice();
+		Collections.sort(products,priceComparator);//collection ka name,object
+		Comparator<Product> nameComparator=(p1,p2)->p1.getProductName().compareTo(p2.getProductName());
+		Collections.sort(products,nameComparator);
+		
 		System.out.println(products);
 	}
 	
