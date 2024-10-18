@@ -56,6 +56,7 @@ public class Product implements Comparator<Product>{
 	public int compare(Product p1, Product p2) {
 		// TODO Auto-generated method stub
 		return 0;
+	
 	}
 	
 }
