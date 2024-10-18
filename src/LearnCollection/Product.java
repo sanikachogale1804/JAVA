@@ -1,6 +1,6 @@
 package LearnCollection;
 
-public class Product {
+public class Product implements Comparable<Product>{
 	
 	private int productId;
 	private String productName;
@@ -40,6 +40,13 @@ public class Product {
 	public String toString() {
 		return "Product [productId=" + productId + ", productName=" + productName + ", productPrice=" + productPrice
 				+ "]";
+	}
+	@Override
+	public int compareTo(Product o) {
+		// TODO Auto-generated method stub
+		//compareTo method positive,negative and 0 pe chalta hai
+		//agar minus karke positive aayega to elements change honge
+		return o.productPrice-this.productPrice;
 	}
 	
 }
