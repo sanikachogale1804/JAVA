@@ -20,6 +20,9 @@ public class ListExample10 {
 		
 		List<Integer> list=Arrays.asList(12,20,20,78,98,98);
 		System.out.println(list);
+		
+		HashSet<Integer> set=new HashSet<Integer>(list);
+		System.out.println(set);
 	}
 	
 }
