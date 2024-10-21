@@ -14,7 +14,13 @@ public class ListExample9 {
 		stack.push(56);
 		System.out.println(stack);
 		System.out.println("=====================");
-		System.out.println(stack.search(45));
+		System.out.println(stack.search(56));
+		System.out.println("=====================");
+		System.out.println(stack.pop());
+		System.out.println(stack);
+		System.out.println(stack.pop());
+		System.out.println(stack);
+		
 	}
 	
 }
