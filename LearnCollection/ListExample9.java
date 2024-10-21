@@ -1,0 +1,20 @@
+package LearnCollection;
+
+import java.util.Stack;
+
+public class ListExample9 {
+
+	public static void main(String[] args) {
+		
+		Stack<Integer> stack=new Stack<Integer>();
+		stack.push(20);
+		stack.push(45);
+		stack.push(67);
+		stack.push(67);
+		stack.push(56);
+		System.out.println(stack);
+		System.out.println("=====================");
+		System.out.println(stack.search(45));
+	}
+	
+}

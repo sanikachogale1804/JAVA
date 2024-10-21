@@ -15,18 +15,22 @@ public class ListExample8 {
 		System.out.println(list);
 		
 		Iterator<Integer>iterator=list.iterator();
+		/*System.out.println(iterator.next());
 		System.out.println(iterator.next());
 		System.out.println(iterator.next());
 		System.out.println(iterator.next());
-		System.out.println(iterator.next());
-		try {
+		System.out.println(iterator.next());*/
+		/*try {
 			System.out.println(iterator.next());
 		}catch(NoSuchElementException e)
 		{
 			System.out.println("no elemnts");
+		}*/
+		
+		while(iterator.hasNext())
+		{
+			System.out.println(iterator.next());
 		}
-		
-		
 		
 	}
 	
