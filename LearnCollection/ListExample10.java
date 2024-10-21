@@ -11,6 +11,9 @@ public class ListExample10 {
 		hashset.add(56);
 		hashset.add(90);
 		hashset.add(89);
+		hashset.add(null);
+		
+		System.out.println(hashset);
 	}
 	
 }
