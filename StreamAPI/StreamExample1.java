@@ -23,8 +23,10 @@ public class StreamExample1 {
 		
 		List<String> names=Arrays.asList("sanika","sneha","Akshata","tushar","joel");
 		Stream<String> stream2 = names.stream();
-		Consumer<String> name=(n)->System.out.println(n+ " "+(n.charAt(n.length()-1)));
-		stream2.forEach(name);
+		//Consumer<String> name=(n)->System.out.println(n+ " "+(n.charAt(n.length()-1)));
+		//stream2.forEach(name);
+		stream2.forEach((n)->System.out.println(n+ " "+(n.charAt(n.length()-1))));
+		
 	}
 
 }
