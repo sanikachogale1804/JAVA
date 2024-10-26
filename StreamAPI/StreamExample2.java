@@ -13,8 +13,10 @@ public class StreamExample2 {
 			{
 			System.out.println(name);
 			}
-			System.out.println(name);
+			System.out.println("======================================");
 		});
+		
+		System.out.println(list);
 		
 	}
 	
