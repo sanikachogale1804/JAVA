@@ -12,9 +12,11 @@ public class Example1 {
 				return t%2==0;
 			}
 			
-		};
+		};	
 		boolean ans=isEven.test(5);
-		System.out.println(ans);
-	}
+        System.out.println(ans);
+			
+		
+	};
 
 }
