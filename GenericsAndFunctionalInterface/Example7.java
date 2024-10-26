@@ -12,9 +12,11 @@ public class Example7 {
 			public void accept(Integer t) {
 				// TODO Auto-generated method stub
 				System.out.println(t*20/100);
+				
 			}
 		};
-		product.accept(70);
+		//product.accept(70);
+		
 		
 	}
 
