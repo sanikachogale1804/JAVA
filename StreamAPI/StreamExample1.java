@@ -18,6 +18,8 @@ public class StreamExample1 {
 		Stream<Integer> stream = list.stream();
 		Consumer<Integer> c=(i)->System.out.println(i);
 		stream.forEach(c);
+		
+		
 	}
 
 }
