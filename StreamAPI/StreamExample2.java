@@ -9,10 +9,11 @@ public class StreamExample2 {
 	public static void main(String[] args) {
 		List<String> list=Arrays.asList("Sanika","akshata","tushar","riya");
 		list.stream().forEach((name)->{
-			for()
+			for(int i=1;i<=20;i++)
 			{
-				
+			System.out.println(name);
 			}
+			System.out.println(name);
 		});
 		
 	}
