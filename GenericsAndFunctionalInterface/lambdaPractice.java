@@ -29,7 +29,7 @@ public class lambdaPractice {
 	    
 		//math squ=(a,b)->a*b;
 		//System.out.println(squ.square(10, 20));
-	    
+	    a a1=new a();
 		
 	}
 	
