@@ -11,6 +11,11 @@ interface math
 {
 	int square(int a,int b);
 }
+@FunctionalInterface
+interface a
+{
+	void car();
+}
 
 public class lambdaPractice {
 
@@ -22,8 +27,9 @@ public class lambdaPractice {
 		Stream<String> stream = names.stream();
 	    Consumer<String> name=(n)->System.out.println(names);
 	    
-		math squ=(a,b)->a*b;
-		System.out.println(squ.square(10, 20));
+		//math squ=(a,b)->a*b;
+		//System.out.println(squ.square(10, 20));
+	    
 		
 	}
 	
