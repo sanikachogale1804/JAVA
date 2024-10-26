@@ -8,7 +8,13 @@ public class StreamExample2 {
 
 	public static void main(String[] args) {
 		List<String> list=Arrays.asList("Sanika","akshata","tushar","riya");
-		Stream<String> stream = list.stream();
+		list.stream().forEach((name)->{
+			for()
+			{
+				
+			}
+		});
+		
 	}
 	
 }
