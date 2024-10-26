@@ -22,7 +22,7 @@ public class StreamExample1 {
 		Stream<Integer> stream=arraylist.stream();
 	//	foreach   map    filter   reduce
 	//	foreach consumer accpet kari hai
-	//	stream consumer ke accept method se gujrega(acccept method ke andar number pass karne ka kam sream karega)
+	//	stream consumer ke accept method se gujrega(acccept method ke andar number pass karne ka kam stream karega)
 		//foreach method consumer ka object hi used karega
 		//foreach method belong to stream class
 		Consumer<Integer> c=(i)->System.out.println(i);
