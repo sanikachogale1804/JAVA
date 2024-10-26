@@ -1,6 +1,8 @@
 package StreamAPI;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.Consumer;
 import java.util.stream.Stream;
 
@@ -19,7 +21,10 @@ public class StreamExample1 {
 		Consumer<Integer> c=(i)->System.out.println(i);
 		stream.forEach(c);
 		
-		
+		List<String> names=Arrays.asList("sanika","sneha","Akshata","tushar","joel");
+		Stream<String> stream2 = names.stream();
+		Consumer<String> name=(n)->System.out.println(n);
+		stream2.forEach(name);
 	}
 
 }
