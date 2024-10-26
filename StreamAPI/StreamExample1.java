@@ -11,6 +11,11 @@ public class StreamExample1 {
 			list.add(i);
 		}
 		System.out.println(list);
+		
+		for(int num:list)
+		{
+			System.out.println(num);
+		}
 	}
 
 }
