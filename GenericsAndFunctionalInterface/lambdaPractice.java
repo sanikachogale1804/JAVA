@@ -18,7 +18,8 @@ public class lambdaPractice {
 				
 		List<String> names=Arrays.asList("Sanika","Akshata","Joel","Tushar");
 	    
-		
+		math squ=(a,b)->a*b;
+		System.out.println(squ.square(10, 20));
 		
 	}
 	
