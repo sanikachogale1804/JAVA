@@ -17,7 +17,7 @@ public class StreamExample2 {
 		});
 		
 		System.out.println(list);
-		list.stream().forEach((name)->System.out.println(name+" "+name.length()));
+		list.stream().forEach((name)->System.out.println(name+" "+name.charAt(name.length()-1)));
 		
 	}
 	
