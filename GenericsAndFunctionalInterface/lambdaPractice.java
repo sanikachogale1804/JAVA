@@ -57,7 +57,8 @@ public class lambdaPractice {
 	   HashSet<Integer>i1= new HashSet<Integer>();
 	   i1.add(20);
 	   i1.add(90);
-	   
+	   i1.add(79);
+	   i1.add(45);
 	    
 	}
 
