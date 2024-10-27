@@ -29,7 +29,15 @@ public class lambdaPractice {
 
 	public static void main(String[] args) {
 		new mobile().details();
-        new Tv().details();	
+        new Tv().details();
+        
+        product wm=new product() {
+        	void details()
+        	{
+        		System.out.println("Wm started");
+        	}
+        };
+        wm.details();
 	}
 	
 }
