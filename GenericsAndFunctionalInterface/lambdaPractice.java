@@ -5,6 +5,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 
@@ -39,6 +40,10 @@ public class lambdaPractice {
 	    
 	    Consumer<String> printconsumer=(s)->System.out.println(s);
 	    printconsumer.accept("sanika");
+	    
+	    Function<Integer, Integer> printbignum=(num1)->num1;
+	    printbignum.apply(10);    
+	    
 	}
 
 	
