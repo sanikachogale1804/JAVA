@@ -3,6 +3,7 @@ package GenericsAndFunctionalInterface;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.HashSet;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Function;
@@ -52,6 +53,9 @@ public class lambdaPractice {
 	    System.out.println(posOrNeg.checknum(10, 20));
 	  
 	    List<String> names2=Arrays.asList("sanika","sneha","Akshata","riya","tushar");
+	    
+	   HashSet<Integer>i1= new HashSet<Integer>();
+	   
 	    
 	}
 
