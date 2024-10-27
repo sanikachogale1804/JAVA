@@ -52,7 +52,7 @@ public class lambdaPractice {
 	    System.out.println(posOrNeg.checknum(10, 20));
 	  
 	    List<String> names2=Arrays.asList("sanika","sneha","Akshata","riya","tushar");
-	    System.out.println(names);
+	    
 	}
 
 	
