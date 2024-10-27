@@ -7,29 +7,16 @@ import java.util.function.Predicate;
 import java.util.stream.Stream;
 
 @FunctionalInterface
-interface math
+interface i1
 {
-	int square(int a,int b);
-}
-@FunctionalInterface
-interface a
-{
-	void car();
+	void isEven();
 }
 
 public class lambdaPractice {
 
 	public static void main(String[] args) {
 		
-		//Predicate<Integer> math=new Predicate<Integer>();
-				
-		List<String> names=Arrays.asList("Sanika","Akshata","Joel","Tushar");
-		Stream<String> stream = names.stream();
-	    Consumer<String> name=(n)->System.out.println(names);
-	    
-		//math squ=(a,b)->a*b;
-		//System.out.println(squ.square(10, 20));
-	    
+	
 		
 	}
 	
