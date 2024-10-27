@@ -13,6 +13,19 @@ interface A
 	
 }
 
+class B implements A
+{
+	public void display()
+	{
+		System.out.println("b class");
+	}
+	
+	public int square(int a,int b)
+	{
+		return a*b;
+	}
+}
+
 
 public class lambdaPractice {
 
@@ -20,8 +33,9 @@ public class lambdaPractice {
 //		List<Integer> numbers=Arrays.asList(10,70,67,54,97,69,45,29,35,19);
 //		numbers.stream().forEach((n)->System.out.println(n%2==0));
 		
-		
-        
+		B b1=new B();
+		b1.display();
+        b1.square(10, 10);
 	}
 	
 }
