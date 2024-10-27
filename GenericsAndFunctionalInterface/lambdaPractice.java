@@ -6,38 +6,25 @@ import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 
-abstract class product
+abstract class animal
 {
-	abstract void details();
+	abstract void makesound();
 }
-class mobile extends product
+
+class dog extends animal
 {
-	void details()
+	void makesound()
 	{
-		System.out.println("Mobile");
-	}
-}
-class Tv extends product
-{
-	void details()
-	{
-		System.out.println("Tv");
-	}
+		System.out.println();
+	};
 }
 
 public class lambdaPractice {
 
 	public static void main(String[] args) {
-		new mobile().details();
-        new Tv().details();
+		
+        dog.
         
-        product wm=new product() {
-        	void details()
-        	{
-        		System.out.println("Wm started");
-        	}
-        };
-        wm.details();
 	}
 	
 }
