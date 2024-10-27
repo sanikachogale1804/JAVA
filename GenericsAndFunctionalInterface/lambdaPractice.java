@@ -15,15 +15,14 @@ class dog extends animal
 {
 	void makesound()
 	{
-		System.out.println();
+		System.out.println("bho - bho");
 	};
 }
 
 public class lambdaPractice {
 
 	public static void main(String[] args) {
-		
-        dog.
+		new dog().makesound();
         
 	}
 	
