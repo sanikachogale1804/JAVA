@@ -9,6 +9,8 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 
+import classesAndObjects.Array;
+
 @FunctionalInterface
 interface A
 {
@@ -49,6 +51,8 @@ public class lambdaPractice {
 	    bignum posOrNeg=(num1,num2)->num1+num2;
 	    System.out.println(posOrNeg.checknum(10, 20));
 	  
+	    List<String> names2=Arrays.asList("sanika","sneha","Akshata","riya","tushar");
+	    System.out.println(names);
 	}
 
 	
