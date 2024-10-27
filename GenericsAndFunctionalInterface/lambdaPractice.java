@@ -16,6 +16,12 @@ public class lambdaPractice {
 
 	public static void main(String[] args) {
 		
+	new i1() {
+		public void isEven()
+		{
+			
+		}
+	};
 	
 		
 	}
