@@ -28,7 +28,12 @@ class B implements A
 		return a*b;
 	}
 }
-
+@FunctionalInterface
+interface bignum
+{
+	public int checknum(int a,int b);
+	
+}
 
 public class lambdaPractice {
 
@@ -40,10 +45,10 @@ public class lambdaPractice {
 	    
 	    Consumer<String> printconsumer=(s)->System.out.println(s);
 	    printconsumer.accept("sanika");
-	    
-	    Function<Integer, Integer> printbignum=(num1)->num1;
-	    printbignum.apply(10);    
-	    
+	   
+	    bignum posOrNeg=(num1,num2)->num1+num2;
+	    System.out.println(posOrNeg.checknum(10, 20));
+	  
 	}
 
 	
