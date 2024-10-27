@@ -59,7 +59,7 @@ public class lambdaPractice {
 	   i1.add(90);
 	   i1.add(79);
 	   i1.add(45);
-	    
+	    System.out.println(i1);
 	}
 
 	
