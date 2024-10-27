@@ -36,6 +36,9 @@ public class lambdaPractice {
 		Collections.sort(names,(s1,s2)->s1.length()-s2.length());
 		
 	    System.out.println(names);
+	    
+	    Consumer<String> printconsumer=(s)->System.out.println(s);
+	    printconsumer.accept("sanika");
 	}
 
 	
