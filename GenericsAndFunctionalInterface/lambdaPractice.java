@@ -1,6 +1,8 @@
 package GenericsAndFunctionalInterface;
 
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
@@ -30,12 +32,10 @@ class B implements A
 public class lambdaPractice {
 
 	public static void main(String[] args) {
-//		List<Integer> numbers=Arrays.asList(10,70,67,54,97,69,45,29,35,19);
-//		numbers.stream().forEach((n)->System.out.println(n%2==0));
+		List<String> names=Arrays.asList("sanika","Akshata","sneha","riya","tushar");
+		Collections.sort(names,(s1,s2)->s1.length()-s2.length());
 		
-		B b1=new B();
-		b1.display();
-        System.out.println(b1.square(10, 10));
+	    System.out.println(names);
 	}
 
 	
