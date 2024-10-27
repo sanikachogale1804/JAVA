@@ -55,6 +55,8 @@ public class lambdaPractice {
 	    List<String> names2=Arrays.asList("sanika","sneha","Akshata","riya","tushar");
 	    
 	   HashSet<Integer>i1= new HashSet<Integer>();
+	   i1.add(20);
+	   i1.add(90);
 	   
 	    
 	}
