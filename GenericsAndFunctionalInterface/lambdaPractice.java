@@ -6,23 +6,15 @@ import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 
-abstract class animal
+@FunctionalInterface
+interface animal
 {
-	abstract void makesound();
+	int square(int a,int b);
 }
-
-class dog extends animal
-{
-	void makesound()
-	{
-		System.out.println("bho - bho");
-	};
-}
-
 public class lambdaPractice {
 
 	public static void main(String[] args) {
-		new dog().makesound();
+		
         
 	}
 	
