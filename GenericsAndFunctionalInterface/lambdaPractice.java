@@ -35,7 +35,8 @@ public class lambdaPractice {
 		
 		B b1=new B();
 		b1.display();
-        b1.square(10, 10);
+        System.out.println(b1.square(10, 10));
 	}
+
 	
 }
