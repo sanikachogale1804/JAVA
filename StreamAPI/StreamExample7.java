@@ -21,6 +21,10 @@ public class StreamExample7 {
 		
 		List<Integer> cube = numbers.stream().map(n->n*n).collect(Collectors.toList());
 		System.out.println(cube);
+		
+		List<String> names = Arrays.asList("sanika","riya","akshata","tushar");
+        List<Integer> length = names.stream().map(name->name.length()).collect(Collectors.toList());
+		System.out.println(length);
 	}
 
 }
