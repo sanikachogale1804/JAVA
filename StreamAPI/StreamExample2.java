@@ -20,5 +20,8 @@ public class StreamExample2 {
 				filter(price->price.getProductPrice()>10000).
 				collect(Collectors.toList());
 		System.out.println(greatertham10000);
+		
+		List<Product> startwithm = products.stream().filter(name->name.getProductName().startsWith("m")).collect(Collectors.toList());
+		System.out.println(startwithm);
 	}
 }
