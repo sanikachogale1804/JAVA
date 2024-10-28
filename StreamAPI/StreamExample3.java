@@ -42,6 +42,8 @@ public class StreamExample3 {
 		//collect ko collector ka object hai hamare pass collector ka object nahi hai to collectors claas hame help karega
 		List<String> namesstartwithn = names.stream().filter(name->name.startsWith("n")).collect(Collectors.toList());
 		System.out.println(namesstartwithn);
+		//filter stream ka object hai 
+		
 	}
 
 }
