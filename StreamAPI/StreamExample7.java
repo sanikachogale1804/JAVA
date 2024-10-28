@@ -11,8 +11,8 @@ public class StreamExample7 {
 	public static void main(String[] args) {
 		
 		List<Integer> numbers = Arrays.asList(12,79,67,45,98,34);
-		Function<T, R>
-		numbers.stream().map(null);
+		Function<Integer, Integer> squarefunction=n->n*n;
+		numbers.stream().map(squarefunction);
 	}
 
 }
