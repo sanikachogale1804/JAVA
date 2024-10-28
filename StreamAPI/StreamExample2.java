@@ -23,5 +23,6 @@ public class StreamExample2 {
 		
 		List<Product> startwithm = products.stream().filter(name->name.getProductName().startsWith("m")).collect(Collectors.toList());
 		System.out.println(startwithm);
+		
 	}
 }
