@@ -19,7 +19,8 @@ public class StreamExample7 {
 		List<Integer> multiplyby10 = numbers.stream().map(n->n*10).collect(Collectors.toList());
 		System.out.println(multiplyby10);
 		
-		List<Integer> sum = numbers.stream().map(n->n+n).collect(Collectors.toList());
+		List<Integer> cube = numbers.stream().map(n->n*n).collect(Collectors.toList());
+		System.out.println(cube);
 	}
 
 }
