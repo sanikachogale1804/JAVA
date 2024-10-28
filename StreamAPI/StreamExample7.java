@@ -8,7 +8,7 @@ public class StreamExample7 {
 	
 	public static void main(String[] args) {
 		List<String> list = Arrays.asList("sanika","sneha","riya","akshata","tushar");
-		list.stream().forEach(n->System.out.println(n.length()));
+		list.stream().forEach(n->System.out.println(n.charAt(n.length()-1)));
 		
 		
 	}
