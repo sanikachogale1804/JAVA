@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class StreamExample5 {
 	
@@ -20,6 +21,11 @@ public class StreamExample5 {
 		//foreach ka return type void tha and map ka retrun type stream hai
 		//dono alag alag interface accept karte hai
 		System.out.println(square);
+		
+		
+	    List<Integer> multiply10 = numbers.stream().map(n->n*10).collect(Collectors.toList());
+		System.out.println(multiply10);
+		
 		
 	}
 
