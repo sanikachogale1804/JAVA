@@ -26,7 +26,10 @@ public class StreamExample5 {
 	    List<Integer> multiply10 = numbers.stream().map(n->n*10).collect(Collectors.toList());
 		System.out.println(multiply10);
 		
-		
+		List<String> names = Arrays.asList("sanika","riya","akshata","tushar");
+		List<Integer> lengthofstring = names.stream().map(name->name.length()).collect(Collectors.toList());
+		System.out.println(lengthofstring);
+		//System.out.println(names.stream().map(name->name.length()).collect(Collectors.toList()));
 	}
 
 }
