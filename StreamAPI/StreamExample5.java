@@ -30,6 +30,8 @@ public class StreamExample5 {
 		List<Integer> lengthofstring = names.stream().map(name->name.length()).collect(Collectors.toList());
 		System.out.println(lengthofstring);
 		//System.out.println(names.stream().map(name->name.length()).collect(Collectors.toList()));
+		
+		
 	}
 
 }
