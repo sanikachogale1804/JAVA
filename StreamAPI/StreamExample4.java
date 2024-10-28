@@ -20,5 +20,7 @@ public class StreamExample4 {
 		
 		List<String> printname = products.stream().map(name->name.getProductName()).collect(Collectors.toList());
 		System.out.println(printname);
+		
+		
 	}
 }
