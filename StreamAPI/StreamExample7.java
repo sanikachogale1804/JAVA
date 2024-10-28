@@ -14,6 +14,8 @@ public class StreamExample7 {
 			list.add(i);
 		}
 		System.out.println(list);
+		
+		list.stream().forEach(i->System.out.println(i%2==0));
 	}
 
 }
