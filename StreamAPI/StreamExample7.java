@@ -4,18 +4,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.function.Function;
 
 public class StreamExample7 {
 	
 	public static void main(String[] args) {
-		List<Integer> list=new ArrayList<Integer>();
-		for(int i=1;i<=20;i++)
-		{
-			list.add(i);
-		}
-		System.out.println(list);
 		
-		list.stream().forEach(i->System.out.println(i%2==0));
+		List<Integer> numbers = Arrays.asList(12,79,67,45,98,34);
+		Function<T, R>
+		numbers.stream().map(null);
 	}
 
 }
