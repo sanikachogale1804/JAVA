@@ -33,10 +33,15 @@ public class StreamExample3 {
 		System.out.println("=======================");
 		//Collectors.toList(); giving me collector ka object
 		//collectors class ki tolist method collect ka object deri hai
+		//agar naya list  ya set chahiye to to collect use karenge
 	    //Collector<Object, ?, List<Object>> list = Collectors.toList();
 		List<Integer> greaterthan20 = numbers.stream().filter(n->n>20).collect(Collectors.toList());
 		System.out.println(greaterthan20);
-		
+		//filter kuch specific element pe kam karta hai
+		List<String> names = Arrays.asList("nisha","riya","sanika","neha","nikita");
+		//collect ko collector ka object hai hamare pass collector ka object nahi hai to collectors claas hame help karega
+		List<String> namesstartwithn = names.stream().filter(name->name.startsWith("n")).collect(Collectors.toList());
+		System.out.println(namesstartwithn);
 	}
 
 }
