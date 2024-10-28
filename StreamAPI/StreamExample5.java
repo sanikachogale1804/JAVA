@@ -20,6 +20,7 @@ public class StreamExample5 {
 		//map ko functions ka object chahiye
 		//foreach ka return type void tha and map ka retrun type stream hai
 		//dono alag alag interface accept karte hai
+		//map ko hume dete kuch hai or return kuch or karta hai matlab question kiya or ans diya
 		System.out.println(square);
 		
 		
