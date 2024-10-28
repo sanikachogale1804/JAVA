@@ -15,6 +15,9 @@ public class StreamExample7 {
 		Function<Integer, Integer> squarefunction=n->n*n;
 		List<Integer> square = numbers.stream().map(squarefunction).collect(Collectors.toList());
 		System.out.println(square);
+		
+		List<Integer> multiplyby10 = numbers.stream().map(n->n*10).collect(Collectors.toList());
+		System.out.println(multiplyby10);
 	}
 
 }
