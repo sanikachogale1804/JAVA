@@ -27,5 +27,8 @@ public class StreamExample7 {
 		
 		boolean allMatch = numbers.stream().allMatch((n)->n>10);
 		System.out.println(allMatch);
+		
+		boolean allMatch2 = numbers.stream().allMatch((n)->n%2==0);
+		System.out.println(allMatch2);
 	}
 }
