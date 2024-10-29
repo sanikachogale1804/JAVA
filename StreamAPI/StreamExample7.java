@@ -17,9 +17,10 @@ public class StreamExample7 {
 		Optional<Integer> first = numbers.stream().findFirst();
 		System.out.println(first);
 		
-		Integer integer = first.get();
-		System.out.println(integer);
+//		Integer integer = first.get();
+//		System.out.println(integer);
 		
 		Integer i = first.orElseThrow(()->new RuntimeException("No element present"));
+		System.out.println(i);
 	}
 }
