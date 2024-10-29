@@ -18,5 +18,8 @@ public class StreamExample7 {
 			numbers.add(i);
 		}
 		System.out.println(numbers);
+		
+		Optional<Integer> any = numbers.stream().findAny();
+		System.out.println(any);
 	}
 }
