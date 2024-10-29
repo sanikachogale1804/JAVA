@@ -27,6 +27,8 @@ public class StreamExample8 {
 		orElseThrow(()->new ArithmeticException("list is empty"));
 		
 		System.out.println(i);
+		
+		
 	}
 
 }
