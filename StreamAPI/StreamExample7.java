@@ -22,10 +22,10 @@ public class StreamExample7 {
 		Optional<Integer> any = numbers.parallelStream().findAny();
 		System.out.println(any);
 		
-		boolean anyMatch = numbers.stream().anyMatch((n)->n>100);
+		boolean anyMatch = numbers.stream().anyMatch((n)->n>10);
 		System.out.println(anyMatch);
 		
-		boolean allMatch = numbers.stream().allMatch((n)->n>1000);
-		
+		boolean allMatch = numbers.stream().allMatch((n)->n>10);
+		System.out.println(allMatch);
 	}
 }
