@@ -12,10 +12,11 @@ public class StreamExample7 {
 	
 	public static void main(String[] args) {
 		
-		List<Object> numbers = Arrays.asList();
+		List<Integer> numbers = new ArrayList<Integer>();
 		for(int i=1;i<=100;i++)
 		{
 			numbers.add(i);
 		}
+		System.out.println(numbers);
 	}
 }
