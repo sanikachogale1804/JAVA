@@ -13,5 +13,9 @@ public class StreamExample7 {
 	public static void main(String[] args) {
 		
 		List<Object> numbers = Arrays.asList();
+		for(int i=1;i<=100;i++)
+		{
+			numbers.add(i);
+		}
 	}
 }
