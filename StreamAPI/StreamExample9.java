@@ -28,9 +28,15 @@ public class StreamExample9 {
 		
 		numbers.parallelStream().forEach((num)->System.out.println(num));
 		System.out.println("===================================");
-		
+//      anymatch me me ek bhi match hai to true milega
 		boolean evenMatch = numbers.stream().anyMatch((n)->n%2==0);
 		System.out.println(evenMatch);
+		
+		boolean greterthan1000 = numbers.stream().anyMatch((n)->n>=1000);
+		System.out.println(greterthan1000 );
+//		allmatch me me sare element match honge to true milega 
+		boolean allMatch = numbers.stream().allMatch((n)->n%2==0);
+		System.out.println(allMatch);
 	}
 
 }
