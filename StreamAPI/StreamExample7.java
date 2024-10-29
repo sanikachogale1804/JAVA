@@ -34,6 +34,7 @@ public class StreamExample7 {
 		boolean anyMatch2 = numbers.stream().anyMatch((n)->n%2==0);
 		System.out.println(anyMatch2);
 		
+		boolean noneMatch = numbers.stream().noneMatch((n)->n>1000);
 		
 	}
 }
