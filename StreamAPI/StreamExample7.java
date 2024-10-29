@@ -23,6 +23,9 @@ public class StreamExample7 {
 		System.out.println(any);
 		
 		boolean anyMatch = numbers.stream().anyMatch((n)->n>100);
+		System.out.println(anyMatch);
+		
+		boolean allMatch = numbers.stream().allMatch((n)->n>1000);
 		
 	}
 }
