@@ -35,6 +35,7 @@ public class StreamExample6 {
 		//get method ka implementation
 		
 		//RunTimeException object banaya kuynki supplier object chahiye tha isliye humne diya
+//		orElseThrow bolega list empty hai to aap batao ki apko konsa exception chahiye
 		Integer i = reduce.orElseThrow(()->new RuntimeException("List is empty"));
 		System.out.println(i);
 	}
