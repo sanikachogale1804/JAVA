@@ -22,6 +22,10 @@ public class StreamExample6 {
 		//in case list empty hai and uspe humne reduce lagaya to exception nahi aayega isike liye optional banaya(vo exception nahi dega)
 		
 		Integer integer = reduce.get();
+		System.out.println(integer);
+		
+		Integer integer2 = reduce2.get();
+		System.out.println(integer2);
 		
 	}
 
