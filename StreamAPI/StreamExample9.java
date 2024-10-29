@@ -37,6 +37,9 @@ public class StreamExample9 {
 //		allmatch me me sare element match honge to true milega 
 		boolean allMatch = numbers.stream().allMatch((n)->n%2==0);
 		System.out.println(allMatch);
+//      vaha pe uspe koi match nahi mila to true dega agar ek bhi match mila to false	
+		boolean noneMatch = numbers.stream().noneMatch((n)->n>=1000);
+		System.out.println(noneMatch);
 	}
 
 }
