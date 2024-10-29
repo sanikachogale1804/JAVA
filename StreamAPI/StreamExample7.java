@@ -22,7 +22,7 @@ public class StreamExample7 {
 		Optional<Integer> any = numbers.parallelStream().findAny();
 		System.out.println(any);
 		
-		
+		boolean anyMatch = numbers.stream().anyMatch((n)->n>100);
 		
 	}
 }
