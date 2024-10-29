@@ -30,5 +30,8 @@ public class StreamExample7 {
 		
 		boolean allMatch2 = numbers.stream().allMatch((n)->n%2==0);
 		System.out.println(allMatch2);
+		
+		boolean anyMatch2 = numbers.stream().anyMatch((n)->n%2==0);
+		
 	}
 }
