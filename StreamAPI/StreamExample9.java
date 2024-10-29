@@ -3,6 +3,7 @@ package StreamAPI;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 public class StreamExample9 {
 	
@@ -13,6 +14,19 @@ public class StreamExample9 {
 			numbers.add(i);
 		}
 		System.out.println(numbers);
+		
+		Optional<Integer> any = numbers.parallelStream().findAny();
+		System.out.println(any);
+		
+//		pipeline matlab one by one aata hai element
+//		parellelpipeline matlab ek pipeline nahi bhohot jyada pipeline(data alag alag pipeline se milega)
+//		findAny ek pipeline ke upar nahi kam karta 
+//		parellelstream me sequence ka guarante nahi hai
+		
+		System.out.println("===================================");
+		
+		numbers.parallelStream().forEach((num)->System.out.println(num));
+		
 	}
 
 }
