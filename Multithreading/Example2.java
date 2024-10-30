@@ -7,6 +7,12 @@ class T3 extends Thread
 		for(int i=1;i<=10;i++)
 		{
 			System.out.println("*");
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 	}
 }
@@ -18,16 +24,28 @@ class T4 extends Thread
 		for(int i=1;i<=10;i++)
 		{
 			System.out.println("$");
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 	}
 }
 public class Example2 {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 		T3 t3=new T3();
 		t3.start();
 		
+		
+		T4 t4=new T4();
+		t4.start();
+		t4.join();
+		t3.join();
+		System.out.println("Hello world");
 	}
 
 }
