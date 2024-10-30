@@ -19,7 +19,10 @@ class T6 extends Thread
 
 class T7 extends Thread
 {
-	
+	public void run()
+	{
+		
+	}
 }
 
 public class Example4 {
