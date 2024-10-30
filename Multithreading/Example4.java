@@ -15,6 +15,8 @@ public class Example4 {
 	
 	public static void main(String[] args) {
 		
+		T6 t6=new T6();
+		
 	}
 
 }
