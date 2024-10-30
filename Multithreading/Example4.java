@@ -31,6 +31,8 @@ public class Example4 {
 		
 		T6 t6=new T6();
 		t6.start();
+		
+		T7 t7=new T7();
 	}
 
 }
