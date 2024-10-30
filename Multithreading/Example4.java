@@ -2,7 +2,10 @@ package Multithreading;
 
 class T6 extends Thread
 {
-	
+	public void run()
+	{
+		
+	}
 }
 
 public class Example4 {
