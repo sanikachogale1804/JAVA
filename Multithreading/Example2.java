@@ -40,8 +40,7 @@ public class Example2 {
 		T3 t3=new T3();
 		t3.start();
 		
-		
-		T4 t4=new T4();
+		T4 t4=new T4();		
 		t4.start();
 		t4.join();
 		t3.join();
