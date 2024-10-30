@@ -1,5 +1,7 @@
 package Multithreading;
 
+import javax.xml.stream.events.StartDocument;
+
 class T6 extends Thread
 {
 	public void run()
@@ -33,6 +35,7 @@ public class Example4 {
 		t6.start();
 		
 		T7 t7=new T7();
+		t7.start();
 	}
 
 }
