@@ -17,6 +17,11 @@ class T6 extends Thread
 	}
 }
 
+class T7 
+{
+	
+}
+
 public class Example4 {
 	
 	public static void main(String[] args) {
