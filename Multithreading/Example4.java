@@ -17,7 +17,7 @@ class T6 extends Thread
 	}
 }
 
-class T7 
+class T7 extends Thread
 {
 	
 }
