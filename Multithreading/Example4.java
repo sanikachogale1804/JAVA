@@ -8,7 +8,7 @@ class T6 extends Thread
 	{
 		while(true)
 		{
-			
+			System.out.println("hello");
 		}
 	}
 }
