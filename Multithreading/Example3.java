@@ -12,9 +12,9 @@ class T5 extends Thread
 
 	public void run()
 	{
-		for(int i=1;i<=10;i++)
+		while(true)
 		{
-			System.out.println("*******************");
+			System.out.println("************");
 		}
 	}
 	
@@ -22,10 +22,13 @@ class T5 extends Thread
 
 public class Example3 {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
+		T5 t5=new T5();
+		t5.setDaemon(true);
+		t5.start();
 		
-		
+		Thread.sleep(5000);
 	}
 
 }
