@@ -38,7 +38,7 @@ class T2 extends Thread
 
 public class Example1 {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 		//first create a classs then inherit Thread
 		//thread ek hi baar kam karti hai kuynki uske baad vo dead ho jayegi
@@ -47,9 +47,12 @@ public class Example1 {
 		T1 t1 = new T1();
 		t1.start();//start() method internally run() method ko call karega
 		
+		
 		T2 t2 = new T2();
 		t2.start();
-		
+		//join method ka matlab hai main method ko rukna padega jab tak t2 ka kam nhi hoga
+		t2.join();
+		t1.join();
 		System.out.println("main method");
 	}
 
