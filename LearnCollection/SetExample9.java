@@ -16,6 +16,8 @@ public class SetExample9 {
 		
 		List<Integer> asList = Arrays.asList(45,89,56,17,80,36);
 		System.out.println(asList);
+		
+		HashSet<Integer> list=new HashSet<Integer>(asList);
 	}
 
 }
