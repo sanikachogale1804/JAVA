@@ -1,6 +1,8 @@
 package LearnCollection;
 
+import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 
 public class SetExample9 {
 	
@@ -11,6 +13,9 @@ public class SetExample9 {
 		set.add(70);
 		set.add(43);
 		System.out.println(set);
+		
+		List<Integer> asList = Arrays.asList(45,89,56,17,80,36);
+		
 	}
 
 }
