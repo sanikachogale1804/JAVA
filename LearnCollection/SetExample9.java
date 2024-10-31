@@ -7,18 +7,8 @@ import java.util.List;
 public class SetExample9 {
 	
 	public static void main(String[] args) {
-		HashSet<Integer> set=new HashSet<Integer>();
-		set.add(67);
-		set.add(190);
-		set.add(70);
-		set.add(43);
-		System.out.println(set);
-		
-		List<Integer> asList = Arrays.asList(45,89,56,17,80,36);
-		System.out.println(asList);
-		
-		HashSet<Integer> list=new HashSet<Integer>(asList);
-		System.out.println(list);;
+	HashSet<String> colors=new HashSet<String>();
+	
 	}
 
 }
