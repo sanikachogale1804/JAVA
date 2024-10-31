@@ -36,5 +36,7 @@ public class SetExample9 {
 		}
 		System.out.println(iterator);
 		
+		System.out.println(set.isEmpty());
+		
 }
 }
