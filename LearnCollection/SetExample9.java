@@ -20,7 +20,7 @@ public class SetExample9 {
 		set.add(2);
 		System.out.println(set);
 		
-		set.size();
-		System.out.println(set);
+		
+		System.out.println(set.size());
 }
 }
