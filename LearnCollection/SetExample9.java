@@ -15,7 +15,7 @@ public class SetExample9 {
 	public static void main(String[] args) {
 	
 		
-		TreeSet<Integer> treeset=new TreeSet<Integer>();
+		TreeSet<Integer> treeset=new TreeSet<Integer>((o1,o2)->o1-o2);
 		treeset.add(78);
 		treeset.add(900);
 		treeset.add(100);
