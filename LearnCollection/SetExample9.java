@@ -11,8 +11,13 @@ public class SetExample9 {
 	
 	public static void main(String[] args) {
 	
-		LinkedHashSet<Integer> list=new LinkedHashSet<Integer>();
-		
+		LinkedHashSet<Integer> set=new LinkedHashSet<Integer>();
+		set.add(10);
+		set.add(78);
+		set.add(10);
+		set.add(45);
+		set.add(900);
+		set.add(2);
 		
 }
 }
