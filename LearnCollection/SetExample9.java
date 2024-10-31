@@ -29,5 +29,9 @@ public class SetExample9 {
 		
 		System.out.println(iterator.next());
 		System.out.println(iterator.next());
+		
+		while (iterator.hasNext()) {
+			
+		}
 }
 }
