@@ -26,5 +26,8 @@ public class SetExample9 {
 		
 		Iterator<Integer> iterator=set.iterator();
 		System.out.println(set);
+		
+		System.out.println(iterator.next());
+		System.out.println(iterator.next());
 }
 }
