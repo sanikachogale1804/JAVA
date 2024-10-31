@@ -10,7 +10,7 @@ public class SetExample9 {
 		set.add(190);
 		set.add(70);
 		set.add(43);
-		
+		System.out.println(set);
 	}
 
 }
