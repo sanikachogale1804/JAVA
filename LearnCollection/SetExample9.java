@@ -31,7 +31,8 @@ public class SetExample9 {
 		System.out.println(iterator.next());
 		
 		while (iterator.hasNext()) {
-			
+			System.out.println(iterator.next());
 		}
+		
 }
 }
