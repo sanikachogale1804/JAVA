@@ -2,6 +2,7 @@ package LearnCollection;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -20,7 +21,10 @@ public class SetExample9 {
 		set.add(2);
 		System.out.println(set);
 		
-		
 		System.out.println(set.size());
+		System.out.println("===============");
+		
+		Iterator<Integer> iterator=set.iterator();
+		System.out.println(set);
 }
 }
