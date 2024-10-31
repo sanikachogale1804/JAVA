@@ -18,6 +18,7 @@ public class SetExample9 {
 		System.out.println(asList);
 		
 		HashSet<Integer> list=new HashSet<Integer>(asList);
+		System.out.println(list);;
 	}
 
 }
