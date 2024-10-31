@@ -21,6 +21,7 @@ public class SetExample9 {
 		treeset.add(100);
 		treeset.add(200);
 		System.out.println(treeset);
+		treeset.isEmpty();
 		
 }
 }
