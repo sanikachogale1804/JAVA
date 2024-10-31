@@ -18,6 +18,7 @@ public class SetExample9 {
 		set.add(45);
 		set.add(900);
 		set.add(2);
+		System.out.println(set);
 		
 }
 }
