@@ -6,14 +6,14 @@ public class Example7 {
 		
 		Counter counter = new Counter();
 		Thread t1=new Thread(()->{
-			for(int i=1;i<=500;i++)
+			for(int i=1;i<=50000;i++)
 			{
 				counter.increment();
 			}
 		});
 		
 		Thread t2=new Thread(()->{
-			for(int i=1;i<=500;i++)
+			for(int i=1;i<=50000;i++)
 			{
 				counter.increment();
 			}
