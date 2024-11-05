@@ -17,14 +17,19 @@ public class Example5 {
 		t1.start();
 		
 		
-	    Runnable r1=new Runnable() {
+//        Runnable r1=new Runnable() {
+//			public void run()
+//			{
+//				System.out.println("Anonymous Inner Class");
+//			}
+//		};
+		
+		Thread t2=new Thread(new Runnable() {
 			public void run()
 			{
 				System.out.println("Anonymous Inner Class");
 			}
-		};
-		
-		Thread t2=new Thread(r1);
+		});
 		t2.start();
 	}
 
