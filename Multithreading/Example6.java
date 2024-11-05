@@ -10,6 +10,14 @@ public class Example6 {
 		Runnable r2=()->System.out.println("Lambda expression");
 		Thread t2=new Thread(r2);
 		t2.start();
+		
+		System.out.println("===============================================");
+		Thread t3=new Thread(()->System.out.println("lambda"));
+		t3.start();
 	}
-
 }
+
+
+
+
+
