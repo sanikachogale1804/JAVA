@@ -33,5 +33,8 @@ public class Example2 {
         //s=s.toLowerCase();
         System.out.println(s);
         
+        System.out.println("===================================");
+        
+        
 	}	
 }

@@ -10,7 +10,7 @@ public class StreamExample3 {
 	
 	public static void main(String[] args) {
 		
-		//filter true or false ke sath hi deal karta hai
+		//filter true or f alse ke sath hi deal karta hai
 		//foreach ke time hum void method use kiye
 		
 		List<Integer> numbers=Arrays.asList(12,79,56,90,63,39);
